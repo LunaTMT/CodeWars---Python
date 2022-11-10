@@ -1,3 +1,7 @@
+#https://www.codewars.com/kata/529bf0e9bdf7657179000008
+#4kyu
+
+
 import numpy as np
 
 valid_set = {1, 2, 3, 4, 5, 6, 7, 8, 9}
