@@ -61,4 +61,12 @@ if __name__ == "__main__":
         rgb(255, 255, 255)#, "FFFFFF", "testing max values")
         rgb(254, 253, 252)#, "FEFDFC", "testing near max values")
         rgb(-20, 275, 125)#, "00FF7D", "testing out of range values")
+        
+# https://www.codewars.com/kata/513e08acc600c94f01000001/train/python            jhoffner
+
+"""
+def rgb(r, g, b):
+    round = lambda x: min(255, max(x, 0))
+    return ("{:02X}" * 3).format(round(r), round(g), round(b))
+"""
        
