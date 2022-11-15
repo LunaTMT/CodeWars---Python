@@ -1,6 +1,7 @@
 #kata author: stevenbarragan
 #4kyu
 #Snail Traverse an array
+#https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1/train/python
 
 import numpy as np
 import math
