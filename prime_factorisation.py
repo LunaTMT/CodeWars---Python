@@ -44,3 +44,4 @@ if __name__ == "__main__":
 
     #https://www.codewars.com/kata/54d512e62a5e54c96200019e/train/python
     # Author: g964
+    # 5 kyu
