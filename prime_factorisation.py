@@ -39,6 +39,5 @@ def prime_factors(n):
     return output
 
 if __name__ == "__main__":
-  #  prime_factors(60)
-   #  prime_factors(7775460)      #, "(2**2)(3**3)(5)(7)(11**2)(17)")
-     prime_factors(18195729)#        , "(7919)")
+     prime_factors(60)
+     prime_factors(7775460)      #, "(2**2)(3**3)(5)(7)(11**2)(17)")
