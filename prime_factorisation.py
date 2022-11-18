@@ -41,3 +41,6 @@ def prime_factors(n):
 if __name__ == "__main__":
      prime_factors(60)
      prime_factors(7775460)      #, "(2**2)(3**3)(5)(7)(11**2)(17)")
+
+    #https://www.codewars.com/kata/54d512e62a5e54c96200019e/train/python
+    # Author: g964
