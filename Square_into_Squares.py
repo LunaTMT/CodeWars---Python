@@ -1,3 +1,6 @@
+#https://www.codewars.com/kata/54eb33e5bc1a25440d000891/train/python
+# kata author: g964
+
 import math
 
 def check_increasing(array):
