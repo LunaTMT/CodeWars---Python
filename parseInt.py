@@ -2,6 +2,8 @@
 # author of code: recursive
 # https://stackoverflow.com/questions/493174/is-there-a-way-to-convert-number-words-to-integers
 
+# kata: https://www.codewars.com/kata/525c7c5ab6aecef16e0001a5/solutions/python?filter=me&sort=best_practice&invalids=false
+# kata author: BattleRattle
 
 import re
 
