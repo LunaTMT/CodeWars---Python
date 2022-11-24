@@ -1,3 +1,7 @@
+#Please note this is not my code:
+# author of code: recursive
+# https://stackoverflow.com/questions/493174/is-there-a-way-to-convert-number-words-to-integers
+
 
 import re
 
@@ -40,13 +44,8 @@ def parse_int(textnum, numwords={}):
 
 
 if __name__ == "__main__":
-   # parse_int('one')    #, 1)
-   # parse_int('twenty') #, 20)
+    parse_int('one')    #, 1)
+    parse_int('twenty') #, 20)
     parse_int('two hundred forty-six')  #, 246)
     parse_int('one thousand two hundred forty-six')  #, 1246)
     parse_int('seven hundred eighty-three thousand nine hundred and nineteen')  # 783919
-
-    #one
-    #twenty
-    #two hundred forty-six
-    #one thousand two hundred forty-six
