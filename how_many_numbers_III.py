@@ -1,6 +1,7 @@
 # completed kata but does not meet the requirement for efficiency.
 # https://www.codewars.com/kata/5877e7d568909e5ff90017e6/train/python
 # Kata Author: raulbc777
+# 4 kyu
 
 def find_all(sum_dig, digs):
     valid = []
