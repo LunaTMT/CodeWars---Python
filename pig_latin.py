@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/python
+# Kata Author: user2505876
+# 5 kyu
+
 def pig_it(text):
     words = text.split()
     return " ".join(list(map(pig_latin, words)))
