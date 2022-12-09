@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/546dba39fa8da224e8000467
+# Kata Author: bkaes
+# 6kyu
+
 def run_length_encoding(message):
     RLE = []
     i = 0
