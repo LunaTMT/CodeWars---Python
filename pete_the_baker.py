@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/525c65e51bf619685c000059/python
+# Kata Author: BattleRattle
+# 5 kyu
+
 def cakes(recipe, available):
     quotients = []
     for key in recipe:
