@@ -1,3 +1,8 @@
+# https://www.codewars.com/kata/54a91a4883a7de5d7800009c
+# Kata Author: parceval
+# 5kyu
+
+
 def increment_string(string):
     
     number = ""
@@ -35,7 +40,6 @@ def increment_string(string):
 
 
 if __name__ == "__main__":
-        increment_string("0000009989")    #, "foobar100")
         increment_string("foo") #, "foo1")
         increment_string("foobar001")   #, "foobar002")
         increment_string("foobar1") #, "foobar2")
