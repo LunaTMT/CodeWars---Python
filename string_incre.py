@@ -34,11 +34,7 @@ def increment_string(string):
 
     return string + '1'
         
-
-
-
-
-
+    
 if __name__ == "__main__":
         increment_string("foo") #, "foo1")
         increment_string("foobar001")   #, "foobar002")
