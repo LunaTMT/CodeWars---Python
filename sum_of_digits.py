@@ -1,3 +1,6 @@
+# https://www.codewars.com/kata/541c8630095125aba6000c00/train/python
+# Kata Author: user578387
+# 6 kyu
 def recusive_func(value):
     value = sum(value)
     if len(str(value)) >= 2:
