@@ -17,7 +17,8 @@ def is_square(n):
     
     return True if ps else False
     
-
+    # Or simply:
+    # return n > -1 and math.sqrt(n) % 1 == 0;
 
 if __name__ == "__main__":
     is_square(1990765924)
