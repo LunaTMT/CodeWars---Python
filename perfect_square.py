@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/54c27a33fb7da0db0100040e
+# bkaes
+# 7 kyu
+
 def is_square(n): 
     if n == 0:
         return True
