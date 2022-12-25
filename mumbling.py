@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
+# g964
+# 7 kyu
+
 def accum(s):
     string  = ""
     for count, value in enumerate(s, start=1):
