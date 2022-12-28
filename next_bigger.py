@@ -13,7 +13,7 @@ def next_bigger(n):
     index = comb.index(n)
     
     try:
-        return  int(''.join(map(str,comb[index + 1])))
+        return int(''.join(map(str,comb[index + 1])))
     except:
         return -1
 
