@@ -1,11 +1,15 @@
+# https://www.codewars.com/kata/53db96041f1a7d32dc0004d2/python
+# Kata Author: suuuzi
+# 5 kyu
+
 import numpy as np
 
-def done_or_not(board): #board[i][j]
+def done_or_not(board): 
     
     board = np.array(board)
     valid = {1,2,3,4,5,6,7,8,9}
     
-    for i in range(len(board)):
+    for i in range(9):
         
         #row + column check
         row = board[i,:]
@@ -26,12 +30,10 @@ def done_or_not(board): #board[i][j]
 if __name__ == "__main__":
     done_or_not([[1, 2, 3, 4, 5, 6, 7, 8, 9],
                  [2, 3, 4, 5, 6, 7, 8, 9, 1],
-                 [3, 4, 5, 6, 7, 8, 9, 1, 2],
-                 
+                 [3, 4, 5, 6, 7, 8, 9, 1, 2],        
                  [4, 5, 6, 7, 8, 9, 1, 2, 3],
                  [5, 6, 7, 8, 9, 1, 2, 3, 4],
-                 [6, 7, 8, 9, 1, 2, 3, 4, 5],
-                 
+                 [6, 7, 8, 9, 1, 2, 3, 4, 5],            
                  [7, 8, 9, 1, 2, 3, 4, 5, 6],
                  [8, 9, 1, 2, 3, 4, 5, 6, 7],
                  [9, 1, 2, 3, 4, 5, 6, 7, 8]])
