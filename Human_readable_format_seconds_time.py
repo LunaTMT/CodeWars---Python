@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/52742f58faf5485cae000b9a/python
+# Kata Author: davazp
+# 4 kyu
+
 
 def format_duration(s):
     if s == 0:
@@ -24,11 +28,6 @@ def format_duration(s):
         msg += merged + 's, ' if valid[0] != "1" else merged + ", "
 
     return msg[:-2]
-
-
-
-
-
 
 
 if __name__ == "__main__":
