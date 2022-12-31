@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/54d7660d2daf68c619000d95/python
+# Kata Author: g964
+# 5 kyu
+
 import numpy as np
 from math import gcd
 
