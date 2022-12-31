@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/526989a41034285187000de4/python
+# Kata Author: xDranik
+# 5 kyu
+
 from functools import reduce
 
 def ips_between(start, end):
@@ -7,7 +11,7 @@ def ips_between(start, end):
     #[0, 0, 256, -10]
     diff = [(value - start[i]) * (pow(256, len(end)-i-1)) for i, value in enumerate(end) ]
 
-    #Summing the different list for all values that are not 0 (via filter)
+    #Summing the differences for all values that are not 0 (via filter)
     return sum(list(filter(lambda num: num != 0, diff)))
 
     
