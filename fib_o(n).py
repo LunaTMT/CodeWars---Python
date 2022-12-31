@@ -1,3 +1,9 @@
+# https://www.codewars.com/kata/559a28007caad2ac4e000083
+# Kata Author: g964
+# 5 kyu
+
+# code author: https://realpython.com/fibonacci-sequence-python/
+
 cache = {0: 0, 1: 1}
 
 def fibonacci_of(n):
@@ -7,6 +13,5 @@ def fibonacci_of(n):
     cache[n] = fibonacci_of(n - 1) + fibonacci_of(n - 2)  # Recursive case
     return cache[n]
 
-
-if __name__ == "__main__":
-    fib = [fibonacci_of(n) for n in range(15)]
+def perimeter(n):
+      return 4 * (sum([fibonacci_of(i) for i in range(n+2)]))
