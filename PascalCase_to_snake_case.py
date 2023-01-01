@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/529b418d533b76924600085d/solutions/python
+# Kata Author: OlgaGr
+# 5 kyu
+
 import re
 
 def to_underscore(string):
