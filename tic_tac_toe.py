@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/525caa5c1bf619d28c000335/python
+# Kata Author: eugene-bulkin
+# 5 kyu
+
 import numpy as np
 
 def win(line):
