@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/51fc12de24a9d8cb0e000001/python
+# Kata Author: nklein
+# 5 kyu
+
 def eval_string(idx, value, max_length):
     while True:
         try:
