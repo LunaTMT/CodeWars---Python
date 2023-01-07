@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/57feb00f08d102352400026e/python
+# kata Author: dinglemouse
+# 5 kyu
+
 import numpy as np
 
 def get_dict(dict_items, row):
