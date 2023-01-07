@@ -1,3 +1,8 @@
+# https://www.codewars.com/kata/585d8c8a28bc7403ea0000c3/python
+# Kata Author: isqua
+# 5 kyu 
+
+
 def find_word(letters, lst):
     for i in lst:
         if set(i.lower()) == letters:
