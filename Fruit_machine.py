@@ -1,5 +1,8 @@
+# https://www.codewars.com/kata/590adadea658017d90000039/solutions/python
+# Kata Author: adrian.eyre
+# 6 kyu
+
 def fruit(reels, spins):
-    
     default_item = ["Wild","Star","Bell","Shell","Seven","Cherry","Bar","King","Queen","Jack"]
     scoring = [i for i in range(10, 0, -1)]
     
