@@ -1,13 +1,15 @@
+# https://www.codewars.com/kata/536e9a7973130a06eb000e9f/python
+# Kata Author: yaphi1
+# 6 kyu
+
 def calculate_damage(t1, t2, att, def_):
-
-
+    
     dict_ = {
         'fire':      ['g', [['f'], 'e'], 'w'],
         'water':     ['f',  ['w'], 'g' , 'e'],
         'grass':     ['w', [['g'], 'e'], 'f'],
         'electric' : ['w', [['e'], 'g' , 'f']] }
         
-
     row = dict_[t2]
         
     if t1[0] in row: 
