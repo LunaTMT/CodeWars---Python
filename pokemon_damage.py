@@ -3,12 +3,11 @@
 # 6 kyu
 
 def calculate_damage(t1, t2, att, def_):
-    
     dict_ = {
         'fire':      ['g', [['f'], 'e'], 'w'],
         'water':     ['f',  ['w'], 'g' , 'e'],
         'grass':     ['w', [['g'], 'e'], 'f'],
-        'electric' : ['w', [['e'], 'g' , 'f']] }
+        'electric':  ['w', [['e'], 'g' , 'f']] }
         
     row = dict_[t2]
         
@@ -26,7 +25,6 @@ def calculate_damage(t1, t2, att, def_):
     return  50 * (att / def_) * eff
         
 if __name__ == "__main__":
-
     calculate_damage("electric", "fire", 100, 100)   #, 50)
     calculate_damage("grass", "electric", 57, 19)    #, 150)
     calculate_damage('water', 'water', 16, 1)        #, 50)
