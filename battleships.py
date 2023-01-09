@@ -1,7 +1,8 @@
-
+# https://www.codewars.com/kata/52bb6539a4cf1b12d90005b7
+# Kata Author: romanzes
+# 3 kyu
 
 import os
-
 import pprint as pp
 
 def too_close(position, field):
@@ -57,7 +58,6 @@ def find_length(position, field):
                     if field[i][j] == 1:
                         if too_close((i, j), field):
                             return False
-
                         field[i][j] = '_'
                         found = True
                         count += 1
@@ -74,7 +74,6 @@ def find_length(position, field):
 def validate_battlefield(field):
     clear = lambda: os.system('clear')
     
-
     if sum([i.count(1) for i in field]) != 20:
         return False
     
@@ -98,7 +97,6 @@ def validate_battlefield(field):
                 pp.pprint(field)
                 print()
 
-               
                 if counts[count][0] > counts[count][1]:
                     return False
               
@@ -118,4 +116,4 @@ if __name__ == "__main__":
                     [0, 0, 0, 0, 1, 0, 0, 1, 0, 0]]
 
 
-    validate_battlefield(battleField)   #, True, "Yep! Seems alright", "Nope, something is wrong!");               
+    validate_battlefield(battleField) 
