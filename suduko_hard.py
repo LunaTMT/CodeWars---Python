@@ -1,14 +1,14 @@
-import numpy as np
+# Partial code credit goes to: https://www.techwithtim.net/tutorials/python-programming/sudoku-solver-backtracking/ for tutorial of backtracking
+ 
 
+import numpy as np
 
 puzzle = np.array([     [5,3,0,0,7,0,0,0,0],
                         [6,0,0,1,9,5,0,0,0],
                         [0,9,8,0,0,0,0,6,0],
-
                         [8,0,0,0,6,0,0,0,3],
                         [4,0,0,8,0,3,0,0,1],
                         [7,0,0,0,2,0,0,0,6],
-
                         [0,6,0,0,0,0,2,8,0],
                         [0,0,0,4,1,9,0,0,5],
                         [0,0,0,0,8,0,0,7,9]])
@@ -20,7 +20,6 @@ def solve(board):
         return True #Board complete
     else:
         row, col = found
-
 
 
     for num in range(1,10):
@@ -77,17 +76,17 @@ def print_board(board):
             print("- - - - - - - - - - - - -")
 
 def find_empty(board):
-    for i in range(len(board)):
-        for j in range(len(board)):
-            if board[i][j] == 0:
+    for (i, j), value in np.ndenumerate(board):
+            if value == 0:
                 return (i, j)
-
-    
+        
 
 if __name__ == "__main__":
     print_board(puzzle)
     solve(puzzle)
     print_board(puzzle)
+
+
 
 
 
