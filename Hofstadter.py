@@ -1,14 +1,10 @@
-def f(n):
-    if n == 0:
-        return 1
-    else:
-        return n - m(f(n-1))
+# https://www.codewars.com/kata/53a1eac7e0afd3ad3300008b/python
+# Kata Author: dnolan
+# 6 kyu
 
-def m(n):
-    if n == 0:
-        return 0
-    else:
-        return n - f(m(n-1))
+def f(n): return n - m(f(n-1)) if n else 1
+
+def m(n): return n - f(m(n-1)) if n else 0
 
 if __name__ == "__main__":
     f(5)#,3)
