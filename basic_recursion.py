@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/5b752a42b11814b09c00005d/train/python
+# Kata Author: KenKamau
+# 7 kyu
+
 def solve(a,b):
     if a == 0 or b == 0:
         return [a,b] 
