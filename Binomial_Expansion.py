@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/540d0fdd3b6532e5c3000b5b/train/python
+# Kata Author: TheDoctor
+# 3 Kyu
+
 import math
 import re
 
