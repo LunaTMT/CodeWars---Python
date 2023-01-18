@@ -43,11 +43,10 @@ def check_cardinal(position, maze):
 
 def create_graph(maze):
     graph = {}
-
+    
     for (i, j), value in np.ndenumerate(maze):
             if value != "W":   
-                valid = check_cardinal((i, j), maze)
-                graph[(i,j)] = set(valid)
+                graph[(i,j)] = set(check_cardinal((i, j), maze))
                 maze[i][j] = "T"
     return graph
            
