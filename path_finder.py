@@ -2,6 +2,9 @@
 # Kata Author: evk
 # 4 kyu 
 
+import sys
+sys.setrecursionlimit(5000)
+
 import numpy as np
 
 def boundary_reached(position, maze):
