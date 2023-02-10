@@ -1,6 +1,3 @@
-
-
-
 def longestCommonSS(strs):
         
         inter = set(strs[0])
