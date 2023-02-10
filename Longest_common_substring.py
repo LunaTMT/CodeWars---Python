@@ -31,4 +31,4 @@ def longestCommonSS(strs):
 
 if __name__ == "__main__":
     strs = ["reflower","flow","flight"]
-    longestCommonPrefix(strs)
+    longestCommonSS(strs)
