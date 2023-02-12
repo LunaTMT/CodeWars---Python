@@ -1,3 +1,8 @@
+# https://www.codewars.com/kata/53f40dff5f9d31b813000774/python
+# Kata Author: zpconn
+# 4 kyu
+
+
 from collections import deque 
 import numpy as np
 def recoverSecret(triplets):
@@ -18,7 +23,6 @@ def recoverSecret(triplets):
         left = sum([True if secret.count(i) >= 1 else False for i in value['left'] ])
         right = sum([True if secret.count(i) >= 1 else False for i in value['right'] ])
         
-       
 
         if not left and not right:
             secret.append(key) #first - a
@@ -41,12 +45,7 @@ def recoverSecret(triplets):
                 secret.append(key)
 
     return start + "".join(secret) + end
-        
-        
-    
-        
-        #print(f"\n{key} {value}, \n[left : {left} right : {right}]\n")
-
+       
 
 if __name__ == "__main__":
     secret = "whatisup"
