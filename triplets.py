@@ -7,7 +7,7 @@ from collections import deque
 import numpy as np
 def recoverSecret(triplets):
     
-    char = sorted(list(set("".join(np.array(triplets).flatten(order='C')))))
+    char = list(set("".join(np.array(triplets).flatten(order='C'))))
     keys = [{'left': "", 'right': ""} for i in (range(0,len(char)))]
     pos = dict(zip(char, keys))
     
