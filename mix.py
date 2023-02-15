@@ -1,3 +1,7 @@
+# https://www.codewars.com/kata/5629db57620258aa9d000014/python
+# Kata Author: g964
+# 4 kyu
+
 import re
 import itertools
 import operator
