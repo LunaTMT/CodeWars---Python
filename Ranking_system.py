@@ -1,6 +1,5 @@
-# TODO: create the User class
-# it must support rank, progress, and the inc_progress(rank) method
-
+# https://www.codewars.com/kata/51fda2d95d6efda45e00004e/train/python
+# 4 Kyu
 
 class User:
 
@@ -45,7 +44,6 @@ class User:
             raise Exception
  
         self.update_points(new_rank)
-
 
         if self.progress >= 100:
             q, self.progress = divmod(self.progress, 100)
