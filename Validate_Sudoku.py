@@ -1,3 +1,6 @@
+# https://www.codewars.com/kata/540afbe2dc9f615d5e000425/train/python
+# 4 Kyu
+
 import math
 from collections import defaultdict
 
